@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Manisha Aryal"
-  avatar           : "profile picture.jpg"
+  avatar           : "/images/profile picture.jpg"
   bio              : "Mechanical Engineer"
   location         : "Kathmandu, Nepal"
   employer         :
