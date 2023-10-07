@@ -3,20 +3,20 @@ main:
   - title: "CV"
     url: /publications/
 
-  - title: "Blogs"
+  - title: "Project Portfolio"
     url: /talks/    
 
-  - title: "Project Portfolio"
+  - title: "Personal Blogs"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Personalized gifts"
     url: /portfolio/
         
-  - title: "About me"
+  - title: "House Plants"
     url: /year-archive/
     
-  - title: "Travel"
-    url: /cv/
+ # - title: "Travel"
+  #  url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+  #- title: "Guide"
+   # url: /markdown/
