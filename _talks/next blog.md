@@ -1,1 +1,17 @@
+---
+title: "Phase II of Being Unemployed"
+collection: talks
+type: "Blog Series"
+permalink: /talks/2014-02-01-talk-2
+venue: "Phase II"
+date: 2023-08-10
+location: "Phutung, Tarkeswor"
+---
 
+PHASE II OF UMEMPLOYMENT: OBSERVANT
+
+After a few weeks pass by, you start enjoying being unemployed. There is nothing not to enjoy. You are living at your parents' expense, getting food, and have plenty of time to binge-watch any show you love. Besides, you start musing upon things around you. I am seeing things that make me realize my unemployment is not that big of a problem. I am privileged to have a comfortable place to live, good food to nourish me, my siblings to cheer me up, and my friends to endorse me. Moreover, I am perfectly healthy, and I am saving bucket loads of money that might have been spent on my treatment if I were sick.
+
+There is a couple living in my neighborhood who resides in a tin-roofed cottage. I live right next to their place. The neighborhood is quite dense on one side, with a 4-foot-wide alleyway running through it. When I was new to this place, I had noticed the wife from that tin-roofed cottage. She is slender, maybe in her 40s, married – puts sindoor on her forehead and wears beads around her neck like married women in Nepal. I saw her pacing in that alley several times for a few days. Her pacing was a little aberrant, so I thought she might be mentally challenged, until one day I saw her husband. He is a horrible guy. He shouted her name while I was in my room, doing my unemployment stuff, and I heard him. She was pacing in that alley as usual, and he started to kick her. I could see the fear on her face, and was heart-broken to witness it. But for my surprise, that scene was quite normal for this neighborhood. That man is an aggressive drinker, and I feel miserable for her. The scene still repeats once in a while. I don't know if I could do anything for her. I have seen other women like her who tolerate domestic violence, even the well-educated ones. I can't see what is wrong and who is wrong here. Life can be really difficult. Despite all this, I have never seen her crying about her situation. She must have accepted it. A few days earlier, I heard her talking to another woman about her visit to some temple situated at the top of the hill. She was asked to do so by some religious guru. She sometimes smiles, and her smile hits me hard, it touches my heart.
+
+She taught me that life can put you into anything, and you just live on.
