@@ -4,13 +4,13 @@ main:
     url: /cv/
 
   - title: "Project Portfolio"
-    url: /talks/    
+    url: /portfolio/    
 
   - title: "Personal Blogs"
     url: /teaching/    
     
   #- title: "Personalized gifts"
-   # url: /portfolio/
+   # url: /talks/
         
   #- title: "House Plants"
    # url: /year-archive/
