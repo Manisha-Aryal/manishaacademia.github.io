@@ -9,11 +9,11 @@ main:
   - title: "Personal Blogs"
     url: /teaching/    
     
-  - title: "Personalized gifts"
-    url: /portfolio/
+  #- title: "Personalized gifts"
+   # url: /portfolio/
         
-  - title: "House Plants"
-    url: /year-archive/
+  #- title: "House Plants"
+   # url: /year-archive/
     
  # - title: "Travel"
   #  url: /cv/
