@@ -7,15 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Manisha's Homepage"
+title                    : "Manisha Aryal"
 title_separator          : "-"
 name                     : &name "Manisha Aryal"
 description              : &description "Mechanical Engineer"
-url                      : https://manisha-aryal.github.io/manishaacademia.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/manisha" # the subpath of your site, e.g. "/blog"
+url                      : https://www.aryalmanisha.com.np/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Manisha-Aryal/manishaacademia.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
+seo_description          : "Site for Manisha Aryal, Mechanical Engineer, batch 2075, Pulchowk campus"
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
@@ -62,7 +63,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -75,14 +76,14 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-79273-2"
 
 
 # Site Author
 author:
   name             : "Manisha Aryal"
   avatar           : "profilewobg.jpg"
-  bio              : "Mechanical Engineer"
+  bio              : "Mechanical Engineer <br> <br> Graduated from Pulchowk campus"
   location         : "Kathmandu, Nepal"
   employer         :
   pubmed           : 
