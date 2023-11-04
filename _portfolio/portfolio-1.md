@@ -5,12 +5,13 @@ excerpt: "Industrial prodcut designed for long and short distance trekking which
 collection: portfolio
 ---
 
-<b> What? </b><br/>
+## What? 
 + Ready to manufacture design of industrial product
 + Handy companion long and short treks
-<br/><b> Key Features </b>
+<br/><br/>
+## Key Features 
 + Hiking Strick or trekking stick 
-<br/>Equipped with: 
+<br/><br/><b>Equipped with:</b> 
 + Torch
 + Charger for your mobile
 + Electrocuting tip
