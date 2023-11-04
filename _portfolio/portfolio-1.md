@@ -8,10 +8,10 @@ collection: portfolio
 ## What? 
 + Ready to manufacture design of industrial product
 + Handy companion long and short treks
-<br/><br/>
+
 ## Key Features 
 + Hiking Strick or trekking stick 
-<br/><br/><b>Equipped with:</b> 
+<br/><b>Equipped with:</b> 
 + Torch
 + Charger for your mobile
 + Electrocuting tip
