@@ -1,18 +1,15 @@
 ---
 title: "Trekking Baton"
 excerpt: "<b> What? </b>
-<ul><li>Ready to manufacture design of industrial product</li><li>Handy companion long and short treks</li></ul>
+* Ready to manufacture design of industrial product
+* Handy companion long and short treks
 <b> Key Features </b>
-<ul>
-  <li>Hiking Strick or trekking stick </li>
-</ul>
+* Hiking Strick or trekking stick 
 <br/>Equipped with: 
-<ul>
-  <li>Torch</li>
-  <li>Charger for your mobile</li>
-  <li>Electrocuting tip</li>
-  <li>Mobile or camera holder</li>
-</ul>
+* Torch
+* Charger for your mobile
+* Electrocuting tip
+* Mobile or camera holder
 <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
