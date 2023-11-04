@@ -1,6 +1,19 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Trekking Baton"
+excerpt: "<b> What? </b>
+<ul><li>Ready to manufacture design of industrial product</li><li>Handy companion long and short treks</li></ul>
+<b> Key Features </b>
+<ul>
+  <li>Hiking Strick or trekking stick </li>
+</ul>
+<br/>Equipped with: 
+<ul>
+  <li>Torch</li>
+  <li>Charger for your mobile</li>
+  <li>Electrocuting tip</li>
+  <li>Mobile or camera holder</li>
+</ul>
+<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
