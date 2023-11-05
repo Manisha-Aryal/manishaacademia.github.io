@@ -61,10 +61,8 @@ Skills
 
 Projects
 ======
- # <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  * <b>[Trekking Baton](https://www.aryalmanisha.com.np//portfolio/portfolio-1/)</b>
+ # <ul>{% for post in site.publications %} {% include archive-single-cv.html %} {% endfor %}</ul>
+ <b>[Trekking Baton](https://www.aryalmanisha.com.np//portfolio/portfolio-1/)</b>
   
 Leadership and Volunteering
 ======
