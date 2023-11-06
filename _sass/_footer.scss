@@ -20,8 +20,8 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $light-gray;
-  border-top: 1px solid $dark-gray;
+  background-color: $light-blue;
+  border-top: 1px solid $light-blue;
 
   footer {
     @include clearfix;
@@ -41,8 +41,8 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
-       color: blue;
+     border: 2px solid #3498db;
+       color: black;
     }
   }
 
@@ -50,7 +50,7 @@
   .fab,
   .far,
   .fal {
-    color: mix(#fff, $gray, 25%);
+    color: white
   }
 }
 
@@ -73,6 +73,7 @@
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
+     color: white;
   }
 
   li + li:before {
