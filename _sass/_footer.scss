@@ -42,7 +42,7 @@
 
     &:hover {
      border: 2px solid #3498db;
-       color: $black;
+       color: $dark-gray;
     }
   }
 
@@ -50,7 +50,7 @@
   .fab,
   .far,
   .fal {
-    color: $white
+    color: $lighter-gray;
   }
 }
 
@@ -73,7 +73,7 @@
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
-     color: $white;
+     color: $lighter-gray;
   }
 
   li + li:before {
