@@ -11,10 +11,10 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  margin-bottom: 1em;
+  margin-bottom: 0;
+   margin-left: 0;
     background: $lighter-gray;
    border: 15px solid $lighter-gray;
-  padding-left: 5px;
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -58,7 +58,7 @@
   @include breakpoint($large) {
     position: relative;
     float: right;
-    width: $right-sidebar-width-narrow;
+    width: $right-sidebar-width-narrow: 300px;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }
