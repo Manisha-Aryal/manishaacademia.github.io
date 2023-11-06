@@ -70,7 +70,7 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
+  display: block;
   vertical-align: top;
   width: 36px;
   // set width only, for non-square avatars
@@ -231,7 +231,9 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+       background-color: #3498db; /* Background color on hover (e.g., blue) */
+       border: 2px solid #3498db; /* Border color on hover (e.g., blue) */
+       transform: scale(1.1); 
     }
   }
 }
