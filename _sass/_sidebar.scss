@@ -13,7 +13,7 @@
   @include clearfix();
   margin-bottom: 1em;
     background: $lighter-gray;
-   border: 1px solid $lighter-gray;
+   border: 15px solid $lighter-gray;
   padding-left: 5px;
 
   @include breakpoint($large) {
@@ -115,9 +115,9 @@
   margin: 0;
    background-color: #3498db; /* Blue background color */
   color: #ffffff; /* White text color */
-  padding: 10px; /* Add padding for spacing */
+  padding: 1px; /* Add padding for spacing */
   border-radius: 5px; /* Rounded corners for the box */
-  width: 200px; /* Set the desired width */
+  width: 175px; /* Set the desired width */
   text-align: center; /* Center-align text horizontally */
 
   @include breakpoint($large) {
@@ -127,7 +127,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-5 + 0.2em;
 }
 
 .author__bio {
