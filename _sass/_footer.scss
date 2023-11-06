@@ -4,8 +4,9 @@
 
 .page__footer {
   @include clearfix;
-  margin-left: 1em;
-  margin-right: 1em;
+   float: center;
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
   clear: both;
   /* sticky footer fix start */
