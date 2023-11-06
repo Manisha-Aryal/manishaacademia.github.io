@@ -84,18 +84,17 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    border-radius: 2%;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 10px;
+      border: 1px solid #000000;
     }
   }
 }
 
 .author__content {
   display: table-cell;
-   border: 1px solid #000000;
   vertical-align: top;
   padding-left: 15px;
   padding-right: 25px;
@@ -111,6 +110,12 @@
 
 .author__name {
   margin: 0;
+   background-color: #3498db; /* Blue background color */
+  color: #ffffff; /* White text color */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 5px; /* Rounded corners for the box */
+  width: 200px; /* Set the desired width */
+  text-align: center; /* Center-align text horizontally */
 
   @include breakpoint($large) {
     margin-top: 10px;
