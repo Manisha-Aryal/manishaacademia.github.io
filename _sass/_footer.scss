@@ -5,16 +5,16 @@
 .page__footer {
   @include clearfix;
   float: left;
-  margin-left: 1;
-  margin-right: 1;
+  margin-left: 1em;
+  margin-right: 1em;
   width: 100%;
   clear: both;
   /* sticky footer fix start */
   position: absolute;
   bottom: 0em;
-  height: 15em;
+  height: Auto;
   /* sticky footer fix end */
-  margin-top: 3em;
+  margin-top: 2em;
   color: mix(#fff, $gray, 25%);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -43,7 +43,7 @@
     &:hover {
        background-color: #3498db;
        border: 2px solid #3498db;
-       transform: scale(1.1);
+       transform: scale(1.2);
     }
   }
 
