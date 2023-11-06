@@ -58,7 +58,7 @@
   @include breakpoint($large) {
     position: relative;
     float: right;
-    width: $right-sidebar-width-narrow: 300px;
+    width: 300px;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }
