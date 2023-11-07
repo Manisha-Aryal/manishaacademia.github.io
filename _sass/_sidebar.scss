@@ -14,8 +14,7 @@
   flex: 20%;
   margin-bottom: 0;
    margin-left: 0;
-    background: #fff;
-   border: 15px solid $light-gray;
+   border-right: 1px solid $light-gray;
    width: 20%;
    height: Auto;
 
@@ -51,7 +50,7 @@
   }
 
   img {
-    width: 100%;
+    width: 200%;
   }
 }
 
@@ -76,9 +75,9 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
+  display: flex;
   vertical-align: top;
-  width: 36px;
+  width: 100px;
   // set width only, for non-square avatars
   // height: 36px;
 
