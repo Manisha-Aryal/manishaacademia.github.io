@@ -11,7 +11,7 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  position:relative;
+  position:fixed;
   display:flex;
   flex: 1;
   margin-bottom: 0;
@@ -80,7 +80,7 @@
 .author__avatar {
   display: flex;
   vertical-align: top;
-  width: 300px;
+  width: 175px;
   // set width only, for non-square avatars
   // height: 36px;
 
@@ -91,12 +91,12 @@
   }
 
   img {
-    max-width: 500px;
+    max-width: 250px;
     border-radius: 30%;
 
     @include breakpoint($large) {
       padding: 10px;
-      border: 5px solid #504848;
+      border: 5px solid #b9b0b0;
     }
   }
 }
