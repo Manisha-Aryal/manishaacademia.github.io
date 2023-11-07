@@ -82,6 +82,6 @@ Leadership and Volunteering
 
 Awards and Achievements
 ======
-   *Winner of the Mechtrix Thematic Award 2020 for Water Treatment Plant.
+   * Winner of the Mechtrix Thematic Award 2020 for Water Treatment Plant.
 
 
