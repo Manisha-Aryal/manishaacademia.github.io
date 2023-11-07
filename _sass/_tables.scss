@@ -16,8 +16,9 @@ table {
 }
 
 thead {
-  background-color: #0047AB;
+  background: #0047AB;
   border-bottom: 1px solid #000;
+  color:#000;
 }
 
 th {
@@ -25,13 +26,16 @@ th {
   font-weight: bold;
   text-align: left;
   border-right: 1px solid $light-gray;
+  background:#0047AB;
+  color:#000;
 }
 
 td {
   padding: 0.5em;
   border-bottom: 1px solid $light-gray;
   border-right: 1px solid $light-gray;
-}
+  background:#0047AB;
+  color:#000;
 
 tr, td, th {
   vertical-align: middle;
