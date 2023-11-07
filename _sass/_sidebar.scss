@@ -16,7 +16,6 @@
   margin-bottom: 0;
    margin-left: 0;
    border-right: 1px solid $light-gray;
-   border: 1px solid $light-gray;
    width: auto;
    height: Auto;
 
@@ -64,7 +63,7 @@
     position: relative;
     float: right;
     width: 300px;
-    margin-left: span(0 of 12);
+    margin-left: span(0.5 of 12);
     z-index: 10;
   }
 
@@ -119,8 +118,8 @@
 .author__name {
   margin: 0;
   color: #a84808f8; /* White text color */
-  padding: 10px; /* Add padding for spacing *//* Rounded corners for the box */
-  width: 175px; /* Set the desired width */
+  /* Add padding for spacing *//* Rounded corners for the box */
+  width: 200px; /* Set the desired width */
   text-align: center; /* Center-align text horizontally */
 
   @include breakpoint($large) {
