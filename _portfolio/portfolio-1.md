@@ -3,7 +3,6 @@ title: "Trekking Baton"
 excerpt: "Industrial prodcut designed for long and short distance trekking which is equipped with torch, electrocutor, mobile holder and charger, and the hiking stick. 
 <br/><img src='/images/500x300.png'>"
 collection: portfolio
-permalink: /trekkingbaton/
 ---
 
 ## What? 
