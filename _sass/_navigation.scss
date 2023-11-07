@@ -34,7 +34,7 @@
     font-size: $type-size-6;
 
     @include breakpoint($large) {
-      @include span(10 of 12 last);
+      @include span(9 of 12 last);
     }
 
     @include breakpoint($x-large) {
@@ -85,6 +85,7 @@
       text-decoration: none;
       color: mix(#fff, $gray, 25%);
       border: 1px solid $light-gray;
+      background-color: darkcyan;
       border-radius: 0;
 
       &:hover {
