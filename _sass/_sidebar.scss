@@ -12,10 +12,10 @@
 
   @include clearfix();
   margin-bottom: 0;
-   margin-left: 0;
-    background: $lighter-gray;
-   border: 15px solid $lighter-gray;
-   width: 300px;
+   margin-left: auto;
+    background: #fff;
+   border: 15px solid $light-gray;
+   width: 20%;
    height: Auto;
 
   @include breakpoint($large) {
@@ -56,7 +56,7 @@
 
 .sidebar__right {
   margin-bottom: 1em;
-  
+
   @include breakpoint($large) {
     position: relative;
     float: right;
