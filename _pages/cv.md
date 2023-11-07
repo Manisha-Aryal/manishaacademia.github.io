@@ -19,8 +19,8 @@ Education
   * Courses: Engineering Drawing, Machine Design, Theory of Mechanisms and Machines, Finite Element Method, Strength of Materials,  Mechanics of Solids, Fundamental and Applied Thermodynamics, Heat transfer, Material Science, Manufacturing and Production Process, Fluid Mechanics and Machines.
   *  Electives: Operation Research, System Design and Simulation, Advanced Mechanical Design
   *  Grade: 80.83% 
-* 10+2 in Tilottama Campus, Rupandehi, 2016-2018                 (GPA: 3.69)
-* SLC from Adarsha Secondary School, 2016                        (GPA: 3.80)
+* 10+2 in Tilottama Campus, Rupandehi, 2016-2018                 <i>(GPA: 3.69)</i>
+* SLC from Adarsha Secondary School, 2016                        <i>(GPA: 3.80)</i>
 
 Work experience
 ======
@@ -29,7 +29,7 @@ Work experience
   * Duties included: Service Advisor and Technician
   * Supervisor: Aashis Shrestha
 
-* Fall 2021: Content Writer
+* Fall 2021: Technical Writer
   * Entegra Pvt. Ltd.
   * Duties included: Engineering career episode writing and report writing
   * Slack team: Sydney
@@ -62,6 +62,8 @@ Skills
 Projects
 ======
  <b>[Trekking Baton](https://www.aryalmanisha.com.np//portfolio/portfolio-1/)</b>
+ <b>[Water Treatment Plant](https://www.aryalmanisha.com.np//portfolio/portfolio-2/)</b>
+ <b>[Mask Shredder](https://www.aryalmanisha.com.np//portfolio/maskshredder/)</b>
   
 Leadership and Volunteering
 ======
@@ -80,8 +82,6 @@ Leadership and Volunteering
 
 Awards and Achievements
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+   *Winner of the Mechtrix Thematic Award 2020 for Water Treatment Plant.
 
 
