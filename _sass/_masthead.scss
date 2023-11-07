@@ -21,6 +21,7 @@
 
     @include breakpoint($x-large) {
       max-width: $x-large;
+      background: #0047AB;
     }
 
     nav {
@@ -54,5 +55,6 @@
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+    background-color: #0047AB;
   }
 }
