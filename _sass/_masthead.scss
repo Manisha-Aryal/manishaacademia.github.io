@@ -5,6 +5,7 @@
 .masthead {
   position: relative;
    background: #0047AB;
+   color: #fff;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -44,6 +45,7 @@
     clear: both;
     list-style-type: none;
     background-color: #0047AB;
+    color: #fff;
   }
 }
 
@@ -52,11 +54,12 @@
   list-style-type: none;
   white-space: nowrap;
   background-color: #0047AB;
-  color: black;
+  color: #fff;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
     background-color: #0047AB;
+    color: #fff;
   }
 }
