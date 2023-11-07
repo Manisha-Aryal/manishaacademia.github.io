@@ -129,7 +129,7 @@
   }
 
   @include breakpoint($small) {
-    @include gallery(6 of 10);
+    @include gallery(8 of 10);
     .archive__item-teaser {
       max-height: 200px;
     }
@@ -213,7 +213,7 @@
       }
 
       .archive__item-body {
-        @include span(7 of 12 last rtl);
+        @include span(8 of 12 last rtl);
         @include prefix(0.5 of 12);
         @include suffix(3 of 12);
       }
@@ -233,7 +233,7 @@
 
       .archive__item-teaser {
         margin: 0 auto;
-        width: span(5 of 12);
+        width: span(7 of 12);
       }
 
       .archive__item-body {
