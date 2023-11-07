@@ -11,17 +11,16 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  position:relative;
   display:table-cell;
   flex: 1;
   margin-bottom: 0;
-   margin-left: 1em;
+   margin-left: 0;
    border-right: 1px solid $light-gray;
-   width: 20%;
+   width: auto;
    height: Auto;
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(3 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -52,7 +51,7 @@
   }
 
   img {
-    width: 300%;
+    width: 200%;
   }
 }
 
@@ -85,7 +84,7 @@
   // height: 36px;
 
   @include breakpoint($large) {
-    display: block;
+    display: table-cell;
     width: auto;
     height: auto;
   }
@@ -95,7 +94,7 @@
     border-radius: 30%;
 
     @include breakpoint($large) {
-      padding: 10px;
+      padding: 0;
       border: 5px solid #b9b0b0;
     }
   }
@@ -130,7 +129,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5 + 0.5em;
+  font-size: $type-size-5 + 0.3em;
 }
 
 .author__bio {
