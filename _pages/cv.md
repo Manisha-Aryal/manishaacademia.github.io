@@ -61,9 +61,9 @@ Skills
 
 Projects
 ======
- <b>[Trekking Baton](https://www.aryalmanisha.com.np//portfolio/portfolio-1/)</b>
- <b>[Water Treatment Plant](https://www.aryalmanisha.com.np//portfolio/portfolio-2/)</b>
- <b>[Mask Shredder](https://www.aryalmanisha.com.np//portfolio/maskshredder/)</b>
+ * <b>[Trekking Baton](https://www.aryalmanisha.com.np//portfolio/portfolio-1/)</b>
+ * <b>[Water Treatment Plant](https://www.aryalmanisha.com.np//portfolio/portfolio-2/)</b>
+ * <b>[Mask Shredder](https://www.aryalmanisha.com.np//portfolio/portfolio-3/)</b>
   
 Leadership and Volunteering
 ======
