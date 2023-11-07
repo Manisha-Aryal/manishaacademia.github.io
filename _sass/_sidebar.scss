@@ -11,8 +11,8 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  position:fixed;
-  display:flex;
+  position:relative;
+  display:table-cell;
   flex: 1;
   margin-bottom: 0;
    margin-left: 1em;
@@ -78,7 +78,7 @@
    ========================================================================== */
 
 .author__avatar {
-  display: flex;
+  display: table-cell;
   vertical-align: top;
   width: 175px;
   // set width only, for non-square avatars
@@ -130,7 +130,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5 + 0.2em;
+  font-size: $type-size-5 + 0.5em;
 }
 
 .author__bio {
