@@ -21,17 +21,17 @@
 
     @include breakpoint($x-large) {
       max-width: $x-large;
-      background: #3880e4;
+      background: #4f565e;
     }
 
     nav {
       z-index: 10;
-      background-color: #3880e4;
+      background-color:  #4f565e;
     }
 
     a {
       text-decoration: none;
-      background-color: #3880e4;
+      background-color: #4f565e;
     }
   }
 }
@@ -43,7 +43,7 @@
     padding: 0;
     clear: both;
     list-style-type: none;
-    background-color: #3880e4;
+    background-color: #4f565e;
     color: #fff;
   }
 }
@@ -52,13 +52,13 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  background-color: #3880e4;
+  background-color:  #4f565e;
   -webkit-text-fill-color: #fff;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
-    background-color: #3880e4;
+    background-color:  #4f565e;
     -webkit-text-fill-color: #fff;
   }
 }
