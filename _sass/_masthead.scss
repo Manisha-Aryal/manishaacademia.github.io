@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-   background: #3880e4;
+   background: #4f565e;
    color: #fff;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
@@ -17,8 +17,8 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
-     background: #3880e4;
-     -webkit-text-fill-color: #fff;
+     background: #4f565e;
+     color: #fff;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
