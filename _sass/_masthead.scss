@@ -5,7 +5,6 @@
 .masthead {
   position: relative;
    background: #4f565e;
-   color: #fff;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -18,7 +17,6 @@
     @include clearfix;
     padding: 1em 1em 1em;
      background: #4f565e;
-     color: #fff;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -55,12 +53,12 @@
   list-style-type: none;
   white-space: nowrap;
   background-color: #3880e4;
-  color: #fff;
+  -webkit-text-fill-color: #fff;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
     background-color: #3880e4;
-    color: #fff;
+    -webkit-text-fill-color: #fff;
   }
 }
