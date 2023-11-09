@@ -4,7 +4,6 @@
 
 .masthead {
   position: relative;
-   background: #d3d3d3;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -16,23 +15,18 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
-     background: #d3d3d3;
-     text-decoration-color: #fff;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
-      background: #d3d3d3;
     }
 
     nav {
       z-index: 10;
-      background-color:  #d3d3d3;
     }
 
     a {
       text-decoration: none;
-      background-color: #d3d3d3;
     }
   }
 }
@@ -44,7 +38,6 @@
     padding: 0;
     clear: both;
     list-style-type: none;
-    background-color:#d3d3d3;
   }
 }
 
@@ -52,11 +45,9 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  background-color: #d3d3d3;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
-    background-color:  #d3d3d3;
   }
 }
