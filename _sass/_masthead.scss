@@ -4,7 +4,7 @@
 
 .masthead {
   position: relative;
-   background: #4f565e;
+   background: #d3d3d3;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -16,23 +16,23 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
-     background: #4f565e;
+     background: #d3d3d3;
      text-decoration-color: #fff;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
-      background: #4f565e;
+      background: #d3d3d3;
     }
 
     nav {
       z-index: 10;
-      background-color:  #4f565e;
+      background-color:  #d3d3d3;
     }
 
     a {
       text-decoration: none;
-      background-color: #4f565e;
+      background-color: #d3d3d3;
     }
   }
 }
@@ -44,8 +44,7 @@
     padding: 0;
     clear: both;
     list-style-type: none;
-    background-color: #4f565e;
-    -webkit-text-fill-color: #fff;
+    background-color:#d3d3d3;
   }
 }
 
@@ -53,13 +52,11 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  background-color:  #4f565e;
-  -webkit-text-fill-color: #fff;
+  background-color: #d3d3d3;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
-    background-color:  #4f565e;
-    -webkit-text-fill-color: #fff;
+    background-color:  #d3d3d3;
   }
 }
