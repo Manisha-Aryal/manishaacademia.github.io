@@ -11,7 +11,6 @@
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
-  display:table-cell;
   margin-bottom: 0;
    margin-left: 0;
    border-right: 1px solid $light-gray;
@@ -61,7 +60,7 @@
   @include breakpoint($large) {
     position: relative;
     float: right;
-    width: 300px;
+    width: $right-sidebar-width;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }
@@ -79,18 +78,19 @@
   display: table-cell;
   vertical-align: top;
   width: 175px;
+  height: auto;
   // set width only, for non-square avatars
   // height: 36px;
 
   @include breakpoint($large) {
-    display: table-cell;
+    display: block;
     width: auto;
     height: auto;
   }
 
   img {
     max-width: 250px;
-    border-radius: 30%;
+    border-radius: 10%;
 
     @include breakpoint($large) {
       padding: 0;
@@ -107,7 +107,7 @@
   line-height: 1;
 
   @include breakpoint($large) {
-    display: table-cell;
+    display: block;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
