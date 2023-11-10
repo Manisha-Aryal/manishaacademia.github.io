@@ -1,9 +1,10 @@
 ---
+layout: archive
 permalink: /contact/
-title: "Contact"
+title: "Contact Details"
 author_profile: true
 redirect_from: 
   - /contact
 ---
 Mobile number: +977 9846321087
-Email: aryalmanisha100@gmail.com
+<br/> Email: aryalmanisha100@gmail.com
