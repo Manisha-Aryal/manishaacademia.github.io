@@ -6,8 +6,8 @@ main:
   - title: "Project Portfolio"
     url: /portfolio/    
 
-  - title: "Personal Blogs"
-    url: /talks/    
+  - title: "Blogs"
+    url: /posts/    
     
   #- title: "Personalized gifts"
    # url: /talks/
