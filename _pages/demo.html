@@ -3,13 +3,15 @@ layout: archive
 permalink: /demo/
 author_profile: true
 ---
+<link id='favicon' rel="shortcut icon" href="./images/profilep.png" type="image/x-png">
+<title>Portfolio | Jigar Sable</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
 body {
-  background: #f7f7f7;
+  background: #fff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -25,7 +27,7 @@ html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #d6d5d2;
 }
 
 
@@ -36,7 +38,7 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  min-height: 100vh;
+  min-height: 10vh;
   align-items: center;
 }
 .home #particles-js {
@@ -64,8 +66,8 @@ html::-webkit-scrollbar-thumb {
   z-index: 1;
 }
 .home .image img {
-  width: 70%;
-  margin-left: 6rem;
+  width: 50%;
+  margin-left: 25rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -144,6 +146,7 @@ html::-webkit-scrollbar-thumb {
 
 /* about section starts */
 .about {
+  margin-top: 15rem;
   background: rgb(255, 255, 255);
 }
 .about .row {
@@ -154,12 +157,12 @@ html::-webkit-scrollbar-thumb {
   padding: 4rem;
 }
 .about .row .image {
-  text-align: center;
+  text-align: left;
   flex: 1 1 35rem;
 }
 .about .row .image img {
   margin: 4rem;
-  width: 30rem;
+  width: 22rem;
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
@@ -171,21 +174,21 @@ html::-webkit-scrollbar-thumb {
   mix-blend-mode: normal;
 }
 .about .row .content {
-  flex: 1 1 45rem;
+  flex: 1 1 22rem;
   padding: 3rem;
 }
 .about .row .content h3 {
   color: rgb(27, 27, 27);
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 .about .row .content .tag {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #020133;
   font-weight: 600;
   margin-top: 1rem;
 }
 .about .row .content p {
-  font-size: 1.5rem;
+  font-size: 1 rem;
   margin-top: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
@@ -218,7 +221,7 @@ html::-webkit-scrollbar-thumb {
 }
 .resumebtn .btn span {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
 }
 .resumebtn .btn i {
@@ -247,7 +250,7 @@ html::-webkit-scrollbar-thumb {
     margin-bottom: 7rem;
   }
   .about .row .content {
-    padding: 1rem;
+    padding: 0rem;
   }
   .about .row .content .box-container {
     gap: 0;
@@ -264,7 +267,7 @@ html::-webkit-scrollbar-thumb {
   padding: 1rem 1.5rem;
   font-size: 2rem;
   background: #ffae00;
-  color: rgb(13, 0, 44);
+  color: #d6d5d2;
   border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;
@@ -273,13 +276,11 @@ html::-webkit-scrollbar-thumb {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
-   </style>
+</style>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-</head>
-<body oncontextmenu="return false">
 
 <!-- pre loader -->
 <!-- <div class="loader-container">
@@ -774,6 +775,3 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
 </script>
-
-</body>
-</html>
