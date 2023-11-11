@@ -1,7 +1,9 @@
 /* ==========================================================================
    ARCHIVE
    ========================================================================== */
-
+   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+   @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+   
 .archive {
   margin-bottom: 2em;
 
@@ -45,7 +47,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: "Poppins", sans-serif;
 
   a + a {
     opacity: 0.5;
