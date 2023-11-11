@@ -1,222 +1,104 @@
---- 
+---
 layout: archive
 permalink: /demo/
 author_profile: true
 ---
 
-<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Animation</title>
+    <style>
         body {
             margin: 0;
             overflow: hidden;
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
         }
 
-        #bubbleCanvas {
+        canvas {
+            display: block;
+        }
+
+        #about-section {
             position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            z-index: 2;
         }
 
-        #content {
-            position: relative;
-            z-index: 1;
-            padding: 20px;
-            color: white;
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
         }
     </style>
-<style>
-    .home {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  min-height: 100vh;
-  align-items: center;
-}
-.home #bubbleCanvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-.home::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-.home .content {
-  flex: 1 1 40rem;
-  padding-top: 1rem;
-  z-index: 1;
-}
-.home .image {
-  flex: 1 1 40rem;
-  z-index: 1;
-}
-.home .image img {
-  width: 70%;
-  margin-left: 6rem;
-  border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-}
-.home .image img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
-.home .content h2 {
-  font-size: 5rem;
-  font-weight: 800;
-  color: #002057;
-}
-.home .content h2 span {
-  font-size: 5rem;
-  font-weight: 800;
-  color: #ff7b00;
-}
-.home .content p {
-  font-size: 2.5rem;
-  color: #000;
-  font-weight: 600;
-  padding: 1rem 0;
-}
-.home .content p span {
-  font-size: 2.5rem;
-  color: rgb(148, 8, 8);
-  font-weight: 600;
-  padding: 1rem 0;
-}
-.home .btn {
-  margin-top: 1rem;
-  position: absolute;
-  line-height: 0;
-  padding: 1.6rem 3rem;
-  border-radius: 4em;
-  transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
-  font-family: "Nunito", sans-serif;
-}
-.home .btn span {
-  font-weight: 700;
-  font-size: 1.7rem;
-  letter-spacing: 0.1rem;
-}
-.home .btn i {
-  margin-left: 0.3rem;
-  font-size: 1.5rem;
-  transition: 0.3s;
-}
-.home .btn:hover {
-  background: #1a047e;
-}
-.home .btn:hover i {
-  transform: translateX(5px);
-}
-</style>
-<section class="home" id="home">
-
-    <div class="content">
-    <h2>Hi There,<br/> I'm Manisha <span>Aryal</span></h2>
-    <p>i am into <span class="typing-text"></span></p>
-    <a href="#about" class="btn"><span>About Me</span>
-      <i class="fas fa-arrow-circle-down"></i>
-    </a>
+</head>
+<body>
+    <canvas id="bubbleCanvas"></canvas>
+    <div id="about-section">
+        <h1>About Us</h1>
+        <p>This is a simple webpage with a bubble animation in the background.</p>
     </div>
-    
-</section>
-<section class="about" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-    
-    <div class="row">
 
-    <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
-    </div>
-    <div class="content">
-        <h3>I'm Manisha</h3>
-        <span class="tag">Mechanical Engineer</span>
-        
-        <p>I am a Mechanical Engineer by profession, and I am graduated from Pulchowk campus this year. Apart from Engineering I have a lot of other hobbies which I enjoy🐰 which includes yoga, reading new books, sketching, plantation, cleaning, coding, watching TV series, running, skipping, playing basketball, guitar, and the list goes on and on and on. </p>
-        
-        <div class="box-container">
-            <!-- <div class="box">
-              <p><span> age: </span> 20</p>
-              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
-            </div> -->
-            <div class="box">
-              <p><span> email : </span> aryalmanisha100@gmail.com</p>
-              <p><span> place : </span> Kathmandu, Nepal - 44600</p>
-            </div>
-        </div>
-    </div>
-</section>   
+    <script>
+        const canvas = document.getElementById('bubbleCanvas');
+        const ctx = canvas.getContext('2d');
 
-<canvas id="bubbleCanvas"></canvas>
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
 
-  <script>
-    const canvas = document.getElementById('bubbleCanvas');
-    const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+        const bubbles = [];
 
-    const bubbles = [];
-
-    function Bubble(x, y, radius, color) {
-        this.x = x;
-        this.y = y;
-        this.radius = radius;
-        this.color = color;
-
-        this.draw = function () {
-            ctx.beginPath();
-            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-            ctx.fillStyle = this.color;
-            ctx.fill();
-            ctx.closePath();
-        };
-
-        this.update = function () {
-            this.y -= 1; // Adjust the speed of bubble rising
-            this.draw();
-        };
-    }
-
-    function createBubbles() {
-        for (let i = 0; i < 10; i++) { // Reduce the number of bubbles
-            const x = Math.random() * canvas.width;
-            const y = canvas.height + Math.random() * 200; // Start off-screen
+        function createBubble() {
             const radius = Math.random() * 20 + 5;
-            const color = `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 0.7)`;
-            bubbles.push(new Bubble(x, y, radius, color));
+            const x = Math.random() * (canvas.width - 2 * radius) + radius;
+            const y = canvas.height + radius;
+            const dx = Math.random() * 2 - 1;
+            const dy = Math.random() * -2 - 1;
+
+            bubbles.push({ x, y, radius, dx, dy });
         }
-    }
 
-    function animate() {
-        requestAnimationFrame(animate);
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        function drawBubbles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        for (let i = 0; i < bubbles.length; i++) {
-            bubbles[i].update();
+            for (let i = 0; i < bubbles.length; i++) {
+                ctx.beginPath();
+                ctx.arc(bubbles[i].x, bubbles[i].y, bubbles[i].radius, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+                ctx.fill();
+                ctx.closePath();
 
-            // Remove bubbles when they go off-screen
-            if (bubbles[i].y + bubbles[i].radius < 0) {
-                bubbles.splice(i, 1);
-                i--;
+                bubbles[i].x += bubbles[i].dx;
+                bubbles[i].y += bubbles[i].dy;
+
+                if (bubbles[i].y + bubbles[i].radius < 0) {
+                    bubbles.splice(i, 1);
+                    i--;
+                }
             }
         }
 
-        // Add new bubbles periodically
-        if (Math.random() > 0.98) {
-            createBubbles();
+        function animate() {
+            createBubble();
+            drawBubbles();
+            requestAnimationFrame(animate);
         }
-    }
 
-    createBubbles();
-    animate();
-</script>
+        animate();
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+    </script>
+</body>
+</html>
