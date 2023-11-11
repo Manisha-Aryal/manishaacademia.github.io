@@ -1,6 +1,6 @@
 ---
 title: "Mask Shredder"
-excerpt: "Machine use to collect the mask fiber of used Masks <br/><img src='/images/profilep.png'>"
+excerpt: "Machine use to collect the mask fiber of used Masks <br/><img src='/images/maskshredder.png'>"
 collection: portfolio
 
 ---

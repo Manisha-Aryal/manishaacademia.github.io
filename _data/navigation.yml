@@ -3,6 +3,9 @@ main:
   - title: "CV"
     url: /cv/
 
+ - title: "Publications"
+    url: /publications/   
+
   - title: "Project Portfolio"
     url: /portfolio/    
 
@@ -15,14 +18,11 @@ main:
   #- title: "House Plants"
    # url: /year-archive/
     
- # - title: "Travel"
-  #  url: /publications/
-    
   #- title: "guide"
    # url: /markdown/
   
   - title: "Contact"
     url: /contact/
 
-  - title: "Demo page"
-    url: /demo/
+  #- title: "Demo page"
+ #   url: /demo/

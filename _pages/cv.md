@@ -84,4 +84,6 @@ Awards and Achievements
 ======
    * Winner of the Mechtrix Thematic Award 2020 for Water Treatment Plant.
 
+Download the CV [here](http://manishaacademia.github.io/files/Resume.pdf)
+
 
