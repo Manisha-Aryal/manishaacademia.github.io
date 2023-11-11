@@ -6,6 +6,8 @@ author_profile: true
 redirect_from: 
   - /contact
 ---
+{% include base_path %}
+
 Mobile number: +977 9846321087
 <br/> Email: aryalmanisha100@gmail.com
 
