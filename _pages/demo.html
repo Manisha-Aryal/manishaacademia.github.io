@@ -1,9 +1,3 @@
----
-layout: archive
-permalink: /demo/
-author_profile: true
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +13,9 @@ author_profile: true
 
         canvas {
             display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
         }
 
         #about-section {
@@ -59,7 +56,7 @@ author_profile: true
 
         function createBubble() {
             const radius = Math.random() * 20 + 5;
-            const x = Math.random() * (canvas.width - 2 * radius) + radius;
+            const x = Math.random() * canvas.width;
             const y = canvas.height + radius;
             const dx = Math.random() * 2 - 1;
             const dy = Math.random() * -2 - 1;
