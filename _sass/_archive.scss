@@ -55,12 +55,14 @@
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
+    border-top: 1px solid #000; // Change the color to your preference
+  width: 100%; 
   }
 }
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-7;
 
   & + p {
     text-indent: 0;
@@ -77,11 +79,12 @@
 
 .archive__item:hover {
   .archive__item-teaser {
+    border: #000;
     box-shadow: 0 0 10px #000;
   }
 
   .archive__item-title {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
