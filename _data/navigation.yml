@@ -23,4 +23,6 @@ main:
   
   - title: "Contact"
     url: /contact/
-    
+
+  - title: "Demo page"
+    url: /demo/
