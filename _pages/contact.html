@@ -6,7 +6,7 @@ author_profile: true
 {% include base_path %}
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +14,13 @@ author_profile: true
   <!-- LinkedIn profile badge script -->
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
   <!-- Add any additional styles or scripts if needed -->
+  <style>
+    .badge-container {
+      display: inline-block;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  </style>
 </head>
 
 <body>
@@ -22,9 +29,12 @@ author_profile: true
   <p>Phone: Your Phone Number</p>
   <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
 
-  <!-- LinkedIn profile badge -->
-  <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="manisha-aryal" data-version="v1">
-    <a class="badge-base__link LI-simple-link" href="https://np.linkedin.com/in/manisha-aryal?trk=profile-badge">Manisha Aryal</a>
+  <!-- LinkedIn profile badge container -->
+  <div class="badge-container">
+    <!-- LinkedIn profile badge -->
+    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="manisha-aryal" data-version="v1">
+      <a class="badge-base__link LI-simple-link" href="https://np.linkedin.com/in/manisha-aryal?trk=profile-badge">Manisha Aryal</a>
+    </div>
   </div>
 
   <!-- Add any additional content or sections as needed -->
