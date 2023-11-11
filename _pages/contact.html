@@ -6,6 +6,23 @@ author_profile: true
   <!-- LinkedIn profile badge script -->
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
   <!-- Add any additional styles or scripts if needed -->
+<script>
+document.getElementById('yourFormId').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    fetch('process_form.php', {
+        method: 'POST',
+        body: new FormData(this),
+    })
+    .then(response => response.text())
+    .then(data => {
+        console.log(data); // Log the server response
+        // Handle the response as needed
+    })
+    .catch(error => console.error(error));
+});
+</script>
+
   <style>
     .badge-container {
       display: inline-block;
@@ -68,7 +85,7 @@ author_profile: true
 
   button {
     background-color: #0077b5;
-    color: #fff;
+    color: #f0f0f0;
     padding: 10px;
     border: none;
     cursor: pointer;
