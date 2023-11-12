@@ -1,6 +1,6 @@
 ---
 title: "Water Treatment Plant"
-excerpt: "Prototype of Waste Water Treatment Plant <br/><img src='/images/water treatment plant.png'>"
+excerpt: "Prototype of Waste Water Treatment Plant <br/><img src='/images/profilep.png'>"
 collection: portfolio
 
 ---
