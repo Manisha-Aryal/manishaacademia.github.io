@@ -18,6 +18,3 @@ collection: portfolio
 + Electrocuting tip
 + Mobile or camera holder
 
-## Result
-
-<img src='images/trekking_baton.png' alt" ">
