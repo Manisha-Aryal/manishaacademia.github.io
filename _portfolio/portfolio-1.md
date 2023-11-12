@@ -18,4 +18,4 @@ collection: portfolio
 + Electrocuting tip
 + Mobile or camera holder
 
- <img src= './images/trekking baton.jpg' alt="">
+ <img src= 'manishaacademia.github.io/images/trekking baton.jpg'>
