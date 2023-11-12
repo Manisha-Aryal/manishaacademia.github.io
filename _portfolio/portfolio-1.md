@@ -18,5 +18,5 @@ collection: portfolio
 + Mobile or camera holder
 
 ## Result
-<img src='images/trekking baton.jpg'>
+<img src='images/trekking_baton.png'>
 <br/>

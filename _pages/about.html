@@ -11,13 +11,28 @@ redirect_from:
 <title>Personal Website | Manisha Aryal</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
-  body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #f0f0f0;
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+body {
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+*::selection {
+  background: #2b3dda;
+  color: #fff;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+html::-webkit-scrollbar-track {
+  background: rgb(235, 202, 245);
+}
+html::-webkit-scrollbar-thumb {
+  background: #d6d5d2;
 }
 
 .typewriter h1 {
@@ -51,33 +66,6 @@ redirect_from:
     border-color: orange;
   }
 }
-
-</style>
-
-<style>
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
-
-body {
-  background: #fff;
-  font-family: "Poppins", sans-serif;
-}
-
-*::selection {
-  background: #2b3dda;
-  color: #fff;
-}
-
-html::-webkit-scrollbar {
-  width: 0.8rem;
-}
-html::-webkit-scrollbar-track {
-  background: rgb(235, 202, 245);
-}
-html::-webkit-scrollbar-thumb {
-  background: #d6d5d2;
-}
-
 
 
 /* hero section starts*/
@@ -316,11 +304,11 @@ html::-webkit-scrollbar-thumb {
 
 <!-- hero section starts -->
 <section class="home" id="home">
-    <div id="particles-js"></div>
+   
 
     <div class="content">
     <h2>Hi There,<br/> I'm Manisha <span>Aryal</span></h2>
-    <p>I am into <span class="typewriter"></span></p>
+    <p>I am into <span >Engineering</span></p>
     <a href="#about" class="btn"><span>About Me</span>
       <i class="fas fa-arrow-circle-down"></i>
     </a>
@@ -370,7 +358,4 @@ html::-webkit-scrollbar-thumb {
 </section>
 <!-- about section ends -->
 
-
-
-<script src="./script.js"></script>
 
