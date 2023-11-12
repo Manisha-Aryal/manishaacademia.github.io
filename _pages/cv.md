@@ -84,6 +84,6 @@ Awards and Achievements
 ======
    * Winner of the Mechtrix Thematic Award 2020 for Water Treatment Plant.
 
-Download the CV 
+Download the CV [here](https://www.aryalmanisha.com.np/files/Resume.pdf)
 
 
