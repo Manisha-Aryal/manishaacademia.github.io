@@ -18,11 +18,11 @@ collection: portfolio
 + Electrocuting tip
 + Mobile or camera holder
 
- <img src= './images/trekking_baton.png'
+ <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
           {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            "{{ teaser | prepend: "/images/trekking_baton.png" | prepend: base_path }}"
           {% endif %}
           alt="">
       </div>
