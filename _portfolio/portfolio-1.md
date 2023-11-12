@@ -10,6 +10,7 @@ collection: portfolio
 + Handy companion long and short treks
 
 ## Key Features 
+
 + Hiking Strick or trekking stick 
 <br/><b>Equipped with:</b> 
 + Torch
@@ -18,5 +19,5 @@ collection: portfolio
 + Mobile or camera holder
 
 ## Result
-<img src='images/trekking_baton.png'>
-<br/>
+
+<img src='images/trekking_baton.png' alt" ">
