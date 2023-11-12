@@ -5,7 +5,6 @@ collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'The increasing demand for the use of electric vehicles has created the need for the design of an electric vehicle chassis frame that could sufficiently bear the load of all the components to be fitted into the electric vehicle. This paper presents the chassis frame specially designed for electric vehicles.'
 date: 2023-05-01
-venue: 'Journal 1'
 paperurl: 'https://elibrary.tucl.edu.np/handle/123456789/18886'
 citation: Aryal, Manisha. (2023). &quot;Design and Analysis of Electric vehicle Chassis frame using Finite Element Method.&quot; <i>Pulchowk campus Library</i>. 1(1).
 ---
