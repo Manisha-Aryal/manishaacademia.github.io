@@ -3,7 +3,7 @@ main:
   - title: "CV"
     url: /cv/
 
- - title: "Publications"
+  - title: "Publications"
     url: /publications/   
 
   - title: "Project Portfolio"
@@ -13,16 +13,16 @@ main:
     url: /year-archive/    
     
   #- title: "Personalized gifts"
-   # url: /talks/
+  #  url: /talks/
         
   #- title: "House Plants"
-   # url: /year-archive/
+  #  url: /year-archive/
     
   #- title: "guide"
-   # url: /markdown/
+  #  url: /markdown/
   
   - title: "Contact"
     url: /contact/
 
   #- title: "Demo page"
- # url: /demo/
+  #  url: /demo/
