@@ -2,7 +2,7 @@
 layout: archive
 title: Design and Analysis of Electric Vehicle Chassis frame using Finite Element Method
 collection: publications
-permalink: /publications/chassis frame design
+permalink: /publications/2009-10-01-paper-title-number-1/
 excerpt: The increasing demand for the use of electric vehicles has created the need for the design of an electric vehicle chassis frame that could sufficiently bear the load of all the components to be fitted into the electric vehicle. This paper presents the chassis frame specially designed for electric vehicles.
  date: 2023-05-01
 # venue: 'Journal 1'' 
