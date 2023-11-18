@@ -6,7 +6,7 @@ collection: portfolio
 ---
 
 ## What? 
-Trekking baton is specially designed to meet the requirements of trekkers where they could get maximum benefits from one single product. Many features are included in it to reduce the number of items trekkers need to carry. 
+Trekking baton is specially designed <b>industrial product</b> to meet the requirements of trekkers where they could get maximum benefits from one single product. Many features are included in it to reduce the number of items trekkers need to carry. 
 
 + Ready to manufacture design of trekking baton
 + Trekking baton is handy companion for long and short treks

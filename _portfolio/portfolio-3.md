@@ -10,8 +10,8 @@ collection: portfolio
 
 ## Key components
 * Shredder:
-This part tears the mask into small pieces. It is designed to shred only the mask fibers, but not the mask strip. 
+</br>This part tears the mask into small pieces. It is designed to shred only the mask fibers, but not the mask strip. 
 * Mask fiber and aluminum strip separator:
-Eddy current is used to separate the aluminum strip from the mask fibers. The outcome from the shredder is passed through eddy current separator where mask fibers, and aluminum strips are collected in different parts. 
+</br>Eddy current is used to separate the aluminum strip from the mask fibers. The outcome from the shredder is passed through eddy current separator where mask fibers, and aluminum strips are collected in different parts. 
 * Fiber Sterilizer:
-Alcohol is used as the sanitizer to sterilize mask fibers collected. 
+</br>Alcohol is used as the sanitizer to sterilize mask fibers collected. 
