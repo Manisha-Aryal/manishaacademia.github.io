@@ -76,7 +76,7 @@ html::-webkit-scrollbar-thumb {
   gap: 0rem;
   min-height: 1vh;
   align-items: center;
-  z-index: 1;
+  z-index: -1;
 
 }
 
@@ -87,18 +87,18 @@ html::-webkit-scrollbar-thumb {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 1; 
+  z-index: -1; 
 }
 .home .content {
   width: 40%;
   flex: 1 1 30rem;
   padding-top: 0rem;
-  z-index: 1;
+  z-index: -1;
 
 }
 .home .image {
   flex: 1 1 40rem;
-  z-index: 1;
+  z-index: -1;
   padding-top: 15rem;
   
 }
@@ -107,6 +107,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  z-index: -1;
 }
 .home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -115,23 +116,27 @@ html::-webkit-scrollbar-thumb {
   font-size: 3rem;
   font-weight: 800;
   color: #020d20;
+  z-index: -1;
 }
 .home .content h2 span {
   font-size: 3rem;
   font-weight: 800;
   color: #f77f0e;
+  z-index: -1;
 }
 .home .content p {
   font-size: 1.75rem;
   color: #000;
   font-weight: 600;
   padding: 1rem 0;
+  z-index: -1;
 }
 .home .content p span {
   font-size: 1.75rem;
   color: rgb(148, 8, 8);
   font-weight: 600;
   padding: 1rem 0;
+  z-index:-1;
 }
 .home .btn {
   margin-top: 1rem;
@@ -187,6 +192,7 @@ html::-webkit-scrollbar-thumb {
   background: rgb(233, 216, 216);
   padding-top: 1rem;
   padding-left: 2rem;
+  z-index: 1;
 }
 .about .row {
   display: flex;
@@ -194,10 +200,12 @@ html::-webkit-scrollbar-thumb {
   gap: 2rem;
   flex-wrap: wrap;
   padding: 2rem;
+  z-index: 1;
 }
 .about .row .image {
   text-align: center;
   flex: 1 1 10rem;
+  z-index: 1;
 }
 .about .row .image img {
   margin: 2rem;
