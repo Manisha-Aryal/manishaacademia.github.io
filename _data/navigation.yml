@@ -6,11 +6,11 @@ main:
   - title: "Publications"
     url: /publications/   
 
-  - title: "Project Portfolio"
+  - title: "Project"
     url: /portfolio/    
 
-  - title: "Blogs"
-    url: /year-archive/    
+ # - title: "Blogs"
+  #  url: /year-archive/    
     
   #- title: "Personalized gifts"
   #  url: /talks/
